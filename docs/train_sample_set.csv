@@ -1,0 +1,134 @@
+	user_id	churn_status
+0	user_524a96be-1872-40fd-b6c5-38cee925bbe4	invol_churn
+1	user_c4f3d867-fb9f-4147-aeb4-058a3d0eabd2	invol_churn
+2	user_ad97534c-65bc-4544-bca9-58ce571439dc	invol_churn
+3	user_08c485f3-42de-4400-9aa8-a855f511e2be	invol_churn
+4	user_e3521780-d4ca-448c-b899-1ff194ccf506	invol_churn
+5	user_cf519d7c-a6d8-42f4-9c15-bd90c228eaf5	invol_churn
+6	user_9d3cd470-e41a-46ff-a4ac-ad0c3871b8e7	invol_churn
+7	user_611628e0-c135-485c-9f23-7d868e9a0a34	invol_churn
+8	user_501e1d73-f52f-4299-9d58-600ab3a6fc3a	invol_churn
+
+728	user_79e4e8e0-95a0-4f27-9de9-43a0b5fb009c	vol_churn
+729	user_8ddaa48b-8da6-4bc0-b008-53dae602a118	vol_churn
+730	user_970db9b6-d1ee-46f8-80c9-e98cd9bb6a77	vol_churn
+731	user_7b73b58d-a4e8-4726-9d47-31a161e60841	vol_churn
+732	user_1ee1cd1c-0751-45f4-b1cb-502a4b693018	vol_churn
+
+1680	user_de9dac4e-fafc-4c1c-a670-f2f3f6eb794c	not_churned
+1681	user_3b2a0e3d-5792-4e58-b5f4-9015b4b27a56	not_churned
+1682	user_9a41398c-3dd4-4b76-adca-adcb2c78581b	not_churned
+1683	user_5c587b8f-8fbf-4eb5-b6af-721fa4b51989	not_churned
+1684	user_26a8fad4-1639-439b-aa65-466bbe3fb60e	not_churned
+1685	user_6a8b43f8-354d-46dc-8317-54ff41538eee	not_churned
+
+
+-------------------------------------------------------------------
+
+	transaction_id	transaction_time	amount_in_usd	billing_address_country	card_3d_secure_support	card_brand	card_country	card_funding	cvc_check	digital_wallet	is_3d_secure	is_3d_secure_authenticated	payment_method_type	bank_name	bank_country	is_prepaid	is_virtual	is_business	failure_code
+0	ch_62af66bd-a44b-4ec7-8921-5ddf94f888e0	1067-10-07 22:32:45+00:00	39	si	optional	mc	si	debit	not_provided	apple_pay	FALSE	FALSE	card	NORWEST BANK IOWA N.A.	United States	FALSE	FALSE	FALSE	card_declined
+1	ch_31f029b8-b2ac-48f2-bff9-aff8c842145c	1067-11-05 12:10:41+00:00	35	dk	optional	visa	dk	debit	not_provided	none	FALSE	FALSE	card	PBS INTERNATIONAL A/S	Denmark	FALSE	FALSE	FALSE	
+2	ch_d447d81d-e35e-4782-91a6-f317824d4987	1067-10-07 18:45:02+00:00	35	si	optional	visa	si	debit	pass	none	FALSE	FALSE	card	NOVA KBM	Slovenia	FALSE	FALSE	FALSE	card_declined
+3	ch_8cec87e5-e912-4bdc-b557-cb29226ca76c	1067-09-07 05:39:09+00:00	10	kw	optional	visa	kw	debit	pass	none	FALSE	FALSE	card	NATIONAL BANK OF KUWAIT, S.A.K.	Kuwait	FALSE	FALSE	FALSE	card_declined
+4	ch_6c4033bc-fab8-408c-a93d-cb683854c31d	1067-08-30 10:05:48+00:00	9	us	optional	visa	pr	credit	unavailable	none	FALSE	FALSE	card	BANCO POPULAR DE PUERTO RICO	Puerto Rico	FALSE	FALSE	FALSE	card_declined
+5	ch_2c7dfae1-3345-4c62-81f4-7920fb3c95e1	1067-10-19 15:01:30+00:00	35	no	optional	mc	no	credit	not_provided	none	FALSE	FALSE	card	DNB NOR BANK ASA	Norway	FALSE	FALSE	FALSE	
+6	ch_9c53cf6a-0adf-4b55-9a15-467d9a680d27	1067-09-04 18:23:45+00:00	29	si	optional	mc	si	debit	unavailable	none	FALSE	FALSE	card		United States	FALSE	FALSE	FALSE	card_declined
+7	ch_463bd925-c614-4778-9189-283464f30584	1067-10-01 18:08:26+00:00	35	sk	optional	visa	sk	debit	pass	none	FALSE	FALSE	card	SLOVENSKA SPORITELNA, A.S.	Slovakia	FALSE	FALSE	FALSE	
+8	ch_f7b53b44-bd44-482e-a678-ba703ae1dca1	1067-11-08 08:08:41+00:00	9	az	optional	mc	az	credit	not_provided	none	FALSE	FALSE	card	INTERNATIONAL BANK OF AZERBAIJAN	Azerbaijan	FALSE	FALSE	TRUE	
+9	ch_a48c665a-4fa4-498b-beb4-e23184d36b77	1067-08-30 20:07:40+00:00	9	pe	optional	visa	pe	debit	pass	none	FALSE	FALSE	card	BANCO DE CREDITO DEL PERU	Peru	FALSE	FALSE	FALSE	
+10	ch_5919e991-2f93-4df7-91e6-629ad3ce60fa	1067-10-10 16:56:57+00:00	29	bd	optional	visa	bd	credit	pass	none	FALSE	FALSE	card	UNITED COMMERCIAL BANK	Bangladesh	FALSE	FALSE	FALSE	
+11	ch_f827f418-a0b4-449a-9876-2e68451366d3	1067-10-17 16:51:20+00:00	9	bg	optional	mc	bg	debit	not_provided	none	FALSE	FALSE	card	VTB BANK OJSC	United States	FALSE	TRUE	FALSE	
+12	ch_6e75f073-ed7e-48b8-8c65-3d2b8df018cd	1067-11-07 08:48:13+00:00	39	lv	optional	visa	lv	debit	pass	none	FALSE	FALSE	card	TELLER, A.S.	Norway	FALSE	TRUE	FALSE	card_declined
+13	ch_4daa9fa7-570d-4bf2-9924-d7f5ac6b7460	1067-09-01 08:31:19+00:00	35	jp	recommended	visa	bh	debit	unavailable	none	FALSE	FALSE	card	CAJA RURAL PROVINCIAL DE ALMERIA	Bahrain	FALSE	FALSE	FALSE	card_declined
+14	ch_a37a9886-39bf-4472-8747-8ce3b9efb25b	1067-09-06 10:59:17+00:00	35	it	optional	mc	by	credit	not_provided	apple_pay	FALSE	FALSE	card	MIDWEST PAYMENT SYSTEMS, INC.	United States	FALSE	FALSE	FALSE	
+15	ch_2c64fcec-7905-41a1-a4d0-ad1681dd40c0	1067-10-31 11:43:43+00:00	35	bd	optional	visa	bd	debit	pass	none	FALSE	FALSE	card		Bangladesh	FALSE	FALSE	FALSE	card_declined
+16	ch_8c008ebb-d7cb-4df7-8524-7e5f81b21012	1067-09-15 05:12:37+00:00	20	tg	recommended	visa	nz	debit	unavailable	none	FALSE	FALSE	card	ANZ NATIONAL BANK, LTD.	New Zealand	FALSE	FALSE	FALSE	card_declined
+17	ch_96f491f2-9718-4bd5-a6f8-c768be2b39e0	1067-10-23 09:08:36+00:00	5	hu	optional	mc	hu	debit	not_provided	none	FALSE	FALSE	card	OTP BANK PLC	Hungary	FALSE	FALSE	FALSE	
+18	ch_307fa865-46b7-4899-9bc6-417491ff2684	1067-10-18 19:16:18+00:00	9	iq	optional	mc	iq	debit	not_provided	none	FALSE	FALSE	card		Qatar	FALSE	FALSE	FALSE	
+19	ch_f411ecee-67f8-4ed9-9861-229134af188e	1067-11-05 10:39:32+00:00	89	fi	optional	mc	fi	credit	not_provided	none	FALSE	FALSE	card	LUOTTOKUNTA	Finland	FALSE	FALSE	TRUE	
+20	ch_87518422-ceb7-49a2-8720-97016173688c	1067-09-02 07:34:20+00:00	35	jp	recommended	mc	hr	debit	unavailable	none	FALSE	FALSE	card	STATE EXPORT-IMPORT BANK OF UKRAINE (UKREXIMBANK)	Ukraine	FALSE	FALSE	FALSE	card_declined
+21	ch_2beeb908-b18b-4cc9-9d57-636bcdd9a8e2	1067-09-01 00:52:10+00:00	35	al	optional	visa	al	debit	fail	none	FALSE	FALSE	card	BANKA KOMBETARE TREGTARE SH.A.	Albania	FALSE	FALSE	FALSE	incorrect_cvc
+22	ch_8f989b4f-5b35-44e2-a9fd-190384e3f8d8	1067-10-07 10:18:19+00:00	39	si	optional	visa	si	prepaid	pass	none	FALSE	FALSE	card	BANKA KOPER D.D.	Slovenia	TRUE	FALSE	FALSE	card_declined
+
+
+-------------------------------------------------------------------
+
+	user_id	source	flow_type	team_size	experience	usage_plan	frustration	first_feature	role
+0	user_90f0c39e-f7a4-4e9b-9276-689331fff1a1	twitter	personal	1	intermediate	personal	high-cost	Video Generation	just-for-fun
+1	user_23c87408-49da-40c9-ba0e-67b295baf69c	instagram	invited	small				Video Generation	marketing
+2	user_5420e037-52f4-4b3c-b5db-43dd0a4276e9	other	invited	small				Video Generation	filmmaking
+3	user_c6689ef3-0fbf-4890-8382-5de22ee3eb7e	instagram	personal		intermediate	personal	limited	Video Generation	
+4	user_89b35ab9-c392-48cb-a6e7-2e12dd77077b	other	personal		advanced	personal	limited	Image Generation	
+5	user_a654563a-cff0-4dcc-b81c-72024306cb69	instagram	invited	growing				Video Generation	editor
+6	user_ac822a07-0cb7-4846-aaf5-dd2f0479410d	other	invited	midsize				Video Generation	product-lead
+7	user_49779d50-eb78-49b5-90d8-23040d303b8d	youtube	invited	small				Video Generation	marketing
+8	user_d6fe0273-0e72-4cbb-901f-afa775fc88b6	instagram	personal		beginner	personal	high-cost	Image Generation	
+9	user_809f80c1-20ca-4cda-8335-5da77fcad762	twitter	invited	small				Video Generation	marketing
+10	user_5a8cb554-d70c-4ad3-a4c4-3aee74947c3b	instagram	invited	enterprise				Image Generation	editor
+11	user_a68af083-dc0b-4eeb-8332-090cfd6be997	instagram	invited	small				Video Generation	editor
+12	user_a5603d3c-7ce9-4fde-a1b8-8b9da32286a5	instagram	invited	small				Video Generation	filmmaking
+13	user_e9d57948-7017-4ed3-af06-c6af80621f89	instagram	invited	small		freelance		Video Generation	marketing
+14	user_57951928-26be-4f55-a17e-c36819c6c6b4	instagram	personal	1	intermediate	personal	high-cost	Video Generation	filmmaker
+15	user_d95d86da-b4ef-4738-8809-b185fb7b9080	instagram	personal		intermediate	personal	other	Video Generation	
+16	user_ebec30ce-fd56-4f49-8e5c-adbbe2702b25	youtube	personal		beginner	personal	other	Video Generation	
+17	user_f9a4d4e7-3e2e-453e-9ef6-e877d9561203	other	team	small		team	other	Image Generation	marketer
+18	user_d5d16218-6fc4-44cf-9d10-0058a1fd2e3f	instagram	invited					Video Generation	marketing
+19	user_9f0046ac-15fc-42fd-878c-754fe10027c4	google	invited	small				Video Generation	filmmaking
+
+-------------------------------------------------------------------
+
+	user_id	transaction_id	purchase_time	purchase_type	purchase_amount_dollars
+0	user_74799720-8ed5-47e1-9943-e01488399043	ch_a1e98b75-2dce-45d8-9e6d-a71d2f35568e	1067-09-23 16:37:51+00:00	Credits package	5
+1	user_906f23b7-d9c3-426c-9140-f51e550d9e4e	ch_aa1ac65d-68d0-4491-ae4e-7e06e79ee252	1067-10-05 00:18:34+00:00	Credits package	5
+2	user_5fd3e0c0-e451-418c-ad8c-cc12f73bcb65	ch_bfeb9da1-7ad5-4f9e-8093-72370007e6d7	1067-10-15 06:16:02+00:00	Credits package	5
+3	user_5d6003c1-a196-431f-b2e3-690325403e74	ch_04901657-15af-40b1-9c11-943a973b6976	1067-10-09 00:38:26+00:00	Credits package	5
+4	user_7b28012f-ebc2-4d21-abc9-0c868a3fb431	ch_1168ae6f-1eab-40c0-9066-71e9711bb210	1067-09-16 10:05:11+00:00	Subscription Update	6
+5	user_d920edb2-e823-4027-8da5-4d02f6b724f3	ch_a82f2273-440f-45c2-b5c3-16c3a9a9b192	1067-09-12 19:34:21+00:00	Subscription Update	6
+6	user_bdd8c662-1015-47eb-bce4-d039e5c97492	ch_d8029f2d-70ff-463f-a9d8-df5c3761f723	1067-09-21 03:27:35+00:00	Subscription Create	9
+7	user_53dab414-5e4b-4400-9191-7ead2e91b775	ch_5ccedb80-98dc-47e4-988f-194a64fb5316	1067-09-21 20:35:49+00:00	Subscription Create	9
+8	user_9af01f81-4a2a-4105-a92c-f831dacb980f	ch_37bc7e20-6498-4b92-97a5-cfb92ff50048	1067-09-23 20:47:35+00:00	Subscription Create	9
+9	user_124e33bb-1822-4cfa-96f6-b32655e77886	ch_cb8b58e0-4211-4af1-8e61-58b6c31f6678	1067-09-19 16:17:29+00:00	Subscription Create	9
+10	user_deb85d7e-eb8d-49a4-b03d-a7fe2502adf3	ch_47ab6da8-17cb-4333-ace8-2083bcc4a682	1067-09-18 18:10:43+00:00	Subscription Create	9
+11	user_c27958f2-6eff-4cda-a411-3a0ee7ffcd5e	ch_f025326f-e523-4dce-a54c-b707cc132167	1067-09-10 05:41:59+00:00	Subscription Create	9
+12	user_f4d84aeb-16ee-4aa6-a596-a071818f7275	ch_9c686124-6758-4930-81d1-34b0cdd034b3	1067-09-16 16:34:06+00:00	Subscription Create	9
+13	user_945d3c94-3dfb-4742-8caf-8e782e00cb4b	ch_c5f69c34-3177-4adc-8726-a4510b262f29	1067-09-10 17:39:31+00:00	Subscription Create	9
+14	user_d33ab166-dd0e-4a0f-b462-0f4861692bbb	ch_d0b285e8-95c1-4a23-be61-ff4999ab85b5	1067-09-02 20:40:24+00:00	Subscription Create	9
+15	user_b6c07b36-d4fc-4bf5-8bbf-b9c925b56415	ch_ab9a1704-637a-4d32-8051-264aa88a0f4f	1067-09-09 17:50:36+00:00	Subscription Create	9
+16	user_c4f8ca1e-de1a-49bc-8ed5-83b3949a8f03	ch_267f24e1-eb4d-43b2-ac3c-06988e8f1105	1067-09-15 03:13:34+00:00	Subscription Create	9
+17	user_388579d6-2070-45df-9906-b25f4c9d75c4	ch_2d33b41e-7001-4e1c-8514-7cebd76a8c5d	1067-09-09 07:18:10+00:00	Subscription Create	9
+18	user_3cd8080a-f4b8-4978-a02a-d2020af6282b	ch_04f603f4-3392-45ea-97a1-f388c3ca361c	1067-09-09 15:09:43+00:00	Subscription Create	9
+19	user_4d29cb17-5cb2-4097-bd06-c75c00e0b9e3	ch_b9652959-f7e4-4750-872a-8caa1c4cc828	1067-09-05 14:15:44+00:00	Subscription Create	9
+
+------------------------------------------------------------------
+
+	user_id	subscription_start_date	subscription_plan	country_code
+0	user_524a96be-1872-40fd-b6c5-38cee925bbe4	1067-08-28 08:29:01+00:00	Higgsfield Pro	ZA
+1	user_d3014050-9136-4af7-8b10-d3174e289818	1067-09-05 15:47:35+00:00	Higgsfield Pro	MO
+2	user_8272870b-4002-4124-83e7-9c4b4b43bf60	1067-09-17 15:30:02+00:00	Higgsfield Pro	NG
+3	user_cd8b523e-aeb5-4abe-a7e2-7bfc7252a974	1067-09-24 19:44:17+00:00	Higgsfield Pro	PA
+4	user_26891909-1802-4c33-aae9-f2acc1566038	1067-09-15 03:02:44+00:00	Higgsfield Pro	KM
+5	user_a6b0c64f-f7ab-4c83-9e94-30ffce42bd96	1067-09-07 14:53:01+00:00	Higgsfield Pro	TH
+6	user_9a717151-51e4-467e-bb97-d203fbd427cf	1067-09-22 08:04:16+00:00	Higgsfield Pro	CN
+7	user_63d50ff2-ca05-4fed-80b0-b1c8ceb3cb96	1067-08-26 18:39:13+00:00	Higgsfield Pro	AM
+8	user_3cd0a839-9b7a-4a3d-8463-1416d60de065	1067-08-30 14:14:15+00:00	Higgsfield Pro	AM
+9	user_8763ab31-9003-47e4-85fe-b0905afba357	1067-09-01 09:47:51+00:00	Higgsfield Pro	TH
+10	user_7edecaf5-ff4f-479b-868b-1ec35d21478a	1067-09-12 21:04:22+00:00	Higgsfield Pro	EC
+11	user_8b179586-3b1f-4ce2-b2b9-a3fa54eba0dc	1067-09-24 19:07:10+00:00	Higgsfield Pro	CG
+12	user_08d157ed-d196-4a9a-a76c-706b40418b04	1067-08-29 01:20:32+00:00	Higgsfield Pro	AW
+13	user_9ad61eb9-75f9-4e6d-9fd7-42d49fce2643	1067-08-28 17:08:05+00:00	Higgsfield Pro	BY
+14	user_3f86d28f-066c-4343-ba6d-ab3b87710b01	1067-09-05 12:35:01+00:00	Higgsfield Pro	GE
+15	user_91e6fe49-cb6b-436a-8f1d-d1db28a6aeb3	1067-08-30 21:32:16+00:00	Higgsfield Pro	PE
+16	user_1fbbe8f5-4fba-4a97-96c2-b50393bf0f86	1067-09-16 20:50:06+00:00	Higgsfield Pro	GE
+17	user_2e130f5c-13fc-42f3-a54e-362b329c1d72	1067-09-05 11:40:16+00:00	Higgsfield Pro	LT
+18	user_5bd3ed6d-c96b-460c-9391-6c722e76e800	1067-08-27 20:27:08+00:00	Higgsfield Pro	BD
+19	user_b2b87da1-ac11-4412-b1c5-d8285f222287	1067-08-28 00:31:38+00:00	Higgsfield Pro	HU
+20	user_499ba225-4b0c-42e3-8dc2-964ffa57f07f	1067-08-30 16:50:49+00:00	Higgsfield Pro	CD
+21	user_1ee7daa8-fa37-44f8-aad8-1cd7dd7214c5	1067-09-01 09:05:21+00:00	Higgsfield Pro	BD
+22	user_ebab83a5-f244-456d-b67b-c32ac7f2b4da	1067-09-24 18:36:41+00:00	Higgsfield Pro	BE
+23	user_aad881d0-46c1-42da-9548-c5398800b45c	1067-09-09 19:57:55+00:00	Higgsfield Pro	VE
+24	user_01146be0-2bd4-4749-bbda-59056c71e436	1067-09-04 16:21:30+00:00	Higgsfield Pro	MA
+25	user_b96889d6-0e00-4e4a-9ebb-6d5f55c152d2	1067-08-26 10:40:57+00:00	Higgsfield Pro	FI
+26	user_bd49d196-a17a-406b-a10a-fa9ea9709978	1067-09-12 14:45:13+00:00	Higgsfield Pro	IE
+27	user_fc61701b-bcd8-49a9-9083-7602999c84c6	1067-09-01 14:41:50+00:00	Higgsfield Pro	RS
+28	user_b23823de-c4ba-4bf9-99af-1c2c6c198e85	1067-08-26 10:27:53+00:00	Higgsfield Pro	ZA
+29	user_485f3750-fd3f-4aec-976a-8fb478ece4fe	1067-09-17 21:51:35+00:00	Higgsfield Pro	QA
