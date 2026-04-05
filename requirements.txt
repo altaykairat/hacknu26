@@ -1,0 +1,9 @@
+# Core data structures and streaming computation
+pandas>=2.0.0
+numpy>=1.26.0
+
+# Machine Learning Ensemble
+catboost>=1.2.0
+
+# Evaluation, Splitting, and Feature Importance Metrics
+scikit-learn>=1.3.0
